@@ -142,13 +142,11 @@ class FAQ extends Component {
                   }
                 />
 
-                <QuestionAnswer id="ques7" answer={<img src="/img/verification.png" alt="Verification" />} />
-
                 <QuestionAnswer
                   id="ques8"
                   answer={
                     <Trans i18nKey="faq.ans8">
-                      <p>No, our solution is completely independant. We use our internal coin reserves to provide liquidity.</p>
+                      <p>Yes, we use <a href="https://n.exchange/?ref=RVRZW47XVEU">N.exchange</a> back-end to provide liquidity.</p>
                     </Trans>
                   }
                 />
@@ -192,35 +190,6 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques11"
-                  answer={
-                    <div>
-                      <Trans i18nKey="faq.ans11">
-                        <p>Whenever you create an order, a referral code is automatically generated for you.</p>
-                        <p>Current referral conditions are as follows:</p>
-                        <ol>
-                          <li>
-                            We pay half of our revenues to the affiliates. One fourth of revenues for 2nd degree affiliates and one eighth
-                            of revenues for 3rd degree affiliates.
-                          </li>
-                          <li>
-                            We send referral payouts once the funds accumulated on your account reach the threshold. The treshold amount is
-                            typically 10 times the minimal order amount (no tx fee), but it can be adjusted downward, in which case, you
-                            would need to cover the tx fee yourself.
-                          </li>
-                          <li>You will be receiving your funds to the withdraw address specified on this order.</li>
-                          <li>
-                            If you would like to change withdrawal address or preferred currency, let us know in support, and we will take
-                            care of it.
-                          </li>
-                        </ol>
-                        <p>These are subject to change at any time.</p>
-                      </Trans>
-                    </div>
-                  }
-                />
-
-                <QuestionAnswer
                   id="ques12"
                   answer={
                     <div>
@@ -237,24 +206,6 @@ class FAQ extends Component {
                         <p>
                           If you did send your funds, but for some reason they were not detected, contact us through the support chat and we
                           will help you out.
-                        </p>
-                      </Trans>
-                    </div>
-                  }
-                />
-
-                <QuestionAnswer
-                  id="ques13"
-                  answer={
-                    <div>
-                      <Trans i18nKey="faq.ans13">
-                        <p>
-                          Yes. Promote N.exchange on social media (such as Twitter). We would pay you 1000 SAT for every retweet from a
-                          legitimate, real account with over 500 followers and 100 SAT for each like from an account of the same criteria.
-                        </p>
-
-                        <p>
-                          <b>We reserve the right to deny the bonus coins on any grounds we see fit.</b>
                         </p>
                       </Trans>
                     </div>
