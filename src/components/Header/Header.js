@@ -49,7 +49,7 @@ class Header extends Component {
                 <Link to="/">
                   <div className={styles['logo-container']}>
                     {window.location.pathname === '/' ? (
-                      <img src="/img/logo-white.svg" alt="Logo" data-test="logo" />
+                      <img src="/img/logo.svg" alt="Logo" data-test="logo" />
                     ) : (
                       <img src="/img/logo.svg" alt="Logo" data-test="logo" />
                     )}

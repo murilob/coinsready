@@ -5,7 +5,7 @@
   height: 70px;
   color: #fff;
   z-index: 3;
-  background: #fff;
+  background: #01031e;
 
   :global .navbar-toggle {
     border: 1px solid $gray;
@@ -100,7 +100,7 @@
   font-size: 12px;
   text-transform: uppercase;
   font-family: 'Clan Offc Pro Medium';
-  color: $black;
+  color: $white;
 
   &:hover,
   &:visited,
@@ -148,7 +148,7 @@
 .social.social.social.social {
   padding: 10px 5px;
   float: left;
-  color: #044264;
+  color: #fff;
 
   @media (min-width: $screen-sm-min) {
     padding: 0 5px;
@@ -161,6 +161,6 @@
   overflow: hidden;
 
   img {
-    width: 195px;
+    width: 230px;
   }
 }

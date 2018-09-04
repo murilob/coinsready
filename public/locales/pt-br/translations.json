@@ -365,7 +365,7 @@
     "12":
       "Otherwise, no refunds are possible and it is the sole responsibility of the user to make sure that he controls the wallet the address of which he uses to receive funds from N.EXCHANGE  and Coinsready.io.."
   },
-  "loading": "Loading",
+  "loading": "Carregando",
   "privacy": {
     "title": "Privacy",
     "updated": "<0>Last updated <1>August 9th, 2017</1></0>",
@@ -399,17 +399,17 @@
     "contact":
       "<0>Contact us</0><1>If you have any questions or concerns regarding this Privacy Policy, please contact us at <1>support@nexchange.io</1>.</1>"
   },
-  "notfound": "Page not found",
+  "notfound": "Página não encontrada",
   "error": {
-    "warning": "Warning",
-    "loading": "Sorry, there was a problem loading the page :(",
-    "notfound": "Page not found :(",
-    "invalidpair": "You cannot buy",
-    "nousedeposit": "You cannot use",
-    "nousedeposit2": "as deposit coin. Please try another one.",
-    "with": "with",
-    "try": "Try",
-    "novalid": "is no valid",
-    "providevalid": "Please put valid"
+    "warning": "Aviso",
+    "loading": "Desculpe, houve um problema ao carregar a página :(",
+    "notfound": "Página não encontrada :(",
+    "invalidpair": "Você não pode comprar",
+    "nousedeposit": "Você não pode usar",
+    "nousedeposit2": "como moeda para depósito. Por favor tente outra.",
+    "with": "com",
+    "try": "Tente",
+    "novalid": "não é válido",
+    "providevalid": "Informe um válido"
   }
 }
