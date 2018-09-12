@@ -24,11 +24,11 @@ export class Home extends Component {
       <div>
         <Hero {...this.props} />
         <RecentOrders />
-        <ICO />
-        <Testimonials />
+        
+        
         <PriceComparison />
         <About />
-        <Team />
+        
         <SubscriptionForm />
       </div>
     );

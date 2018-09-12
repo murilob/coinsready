@@ -80,19 +80,6 @@ class Header extends Component {
                   </li>
 
                   <li>
-                    <a
-                      className={`${styles.link} hidden-sm`}
-                      href="http://docs.nexchange2.apiary.io/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={() => ga('send', 'event', 'General', 'api docs click')}
-                      data-test="api-link"
-                    >
-                      {t('header.apidocs')}
-                    </a>
-                  </li>
-
-                  <li>
                     <a className={styles.link} href="/#compare" data-test="compare-link">
                       {t('header.compare')}
                     </a>
@@ -109,29 +96,11 @@ class Header extends Component {
                     </a>
                   </li>
 
-                  <li className={styles['ico-link']}>
-                    <a
-                      href="https://n.exchange/ico"
-                      className={`${styles.btn} btn btn-block btn-primary`}
-                      onClick={() => {
-                        window.ga('send', 'event', {
-                          eventCategory: 'ICO open',
-                          eventAction: 'Open from header',
-                        });
-                      }}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      data-test="ico-link"
-                    >
-                      {t('header.ico')}
-                    </a>
-                  </li>
-
                   <LanguagePicker />
 
                   <li id="social-mobile">
                     <a
-                      href="/twitter"
+                      href="https://twitter.com/coinsreadyIO"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${styles.social} btn btn-simple btn-just-icon visible-xs`}
@@ -140,7 +109,7 @@ class Header extends Component {
                     </a>
 
                     <a
-                      href="/fb"
+                      href="https://www.facebook.com/coinsready.io"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${styles.social} btn btn-simple btn-just-icon visible-xs`}
@@ -148,28 +117,11 @@ class Header extends Component {
                       <i className="fab fa-facebook-f" aria-hidden="true" />
                     </a>
 
-                    <a
-                      href="/slack"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`${styles.social} btn btn-simple btn-just-icon visible-xs`}
-                    >
-                      <i className="fab fa-slack-hash" aria-hidden="true" />
-                    </a>
-
-                    <a
-                      href="/telegram"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`${styles.social} btn btn-simple btn-just-icon visible-xs`}
-                    >
-                      <i className="fab fa-telegram" aria-hidden="true" />
-                    </a>
                   </li>
 
                   <li className="visible-md visible-lg social-desktop">
                     <a
-                      href="/twitter"
+                      href="https://twitter.com/coinsreadyIO"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${styles.social} btn btn-simple btn-just-icon`}
@@ -184,7 +136,7 @@ class Header extends Component {
 
                   <li className="visible-md visible-lg social-desktop">
                     <a
-                      href="/fb"
+                      href="https://www.facebook.com/coinsready.io"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${styles.social} btn btn-simple btn-just-icon`}
@@ -196,36 +148,7 @@ class Header extends Component {
                       <i className="fab fa-facebook-f" aria-hidden="true" />
                     </a>
                   </li>
-
-                  <li className="visible-md visible-lg social-desktop">
-                    <a
-                      href="/slack"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`${styles.social} btn btn-simple btn-just-icon`}
-                      rel="tooltip"
-                      title=""
-                      data-placement="bottom"
-                      data-original-title={t('header.slack')}
-                    >
-                      <i className="fab fa-slack-hash" aria-hidden="true" />
-                    </a>
-                  </li>
-
-                  <li className="visible-md visible-lg social-desktop">
-                    <a
-                      href="/telegram"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`${styles.social} btn btn-simple btn-just-icon`}
-                      rel="tooltip"
-                      title=""
-                      data-placement="bottom"
-                      data-original-title={t('header.telegram')}
-                    >
-                      <i className="fab fa-telegram" aria-hidden="true" />
-                    </a>
-                  </li>
+ 
                 </ul>
               </div>
 

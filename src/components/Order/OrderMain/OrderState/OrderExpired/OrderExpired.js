@@ -18,7 +18,7 @@ class OrderExpired extends Component {
 
             <Trans i18nKey="order.expired2">
               <h3 className={styles.subtitle}>
-                Your order is expired. You can make a{' '}
+                Your order is expired. You can make a
                 <a href="/" className={styles['new-order-link']}>
                   new exchange order
                 </a>.

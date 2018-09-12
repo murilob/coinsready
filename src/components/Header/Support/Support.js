@@ -100,111 +100,15 @@ class Support extends Component {
               <div className="modal-body">
                 <div className="row">
                   <div className="col-xs-12 col-sm-6">
-                    <h3>{t('support.2')}</h3>
-                    <p onClick={() => ga('send', 'event', 'General', 'click support number')}>
-                      +442081442192<br />
-                      +16464612858 (US)
-                    </p>
-                  </div>
-
-                  <div className="col-xs-12 col-sm-6">
                     <h3>{t('support.3')}</h3>
+                    <p>If have any problems, comments or suggestions, please contact us at</p>
                     <p>
-                      <a href="mailto:support@n.exchange">support@n.exchange</a>
+                      <a href="mailto:support@coinsready.io">support@coinsready.io</a>
                     </p>
                   </div>
                 </div>
 
-                <form id="support-form" onSubmit={this.handleSubmit}>
-                  {this.state.success === true ? <h4 className="text-success">{t('generalterms.formsucess')}</h4> : null}
-                  {this.state.success === false ? <h4 className="text-danger">{t('generalterms.formfailed')}</h4> : null}
-
-                  {this.state.showForm ? (
-                    <div>
-                      <div className="form-group is-empty">
-                        <input
-                          type="name"
-                          name="name"
-                          className="form-control"
-                          placeholder={t('support.4')}
-                          onChange={this.handleInputChange}
-                          value={this.state.name}
-                          required
-                        />
-                      </div>
-
-                      <div className="form-group is-empty">
-                        <input
-                          type="telephone"
-                          name="telephone"
-                          className="form-control"
-                          placeholder={t('support.5')}
-                          onChange={this.handleInputChange}
-                          value={this.state.telephone}
-                        />
-                      </div>
-
-                      <div className="form-group is-empty">
-                        <input
-                          type="email"
-                          name="email"
-                          className="form-control"
-                          placeholder={t('support.3')}
-                          onChange={this.handleInputChange}
-                          value={this.state.email}
-                          disabled={this.state.emailFetched}
-                          required
-                        />
-                      </div>
-
-                      <div className="form-group is-empty">
-                        <input
-                          type="text"
-                          name="subject"
-                          className="form-control"
-                          placeholder={t('support.7')}
-                          onChange={this.handleInputChange}
-                          value={this.state.subject}
-                        />
-                      </div>
-
-                      <textarea
-                        name="message"
-                        className="form-control"
-                        placeholder={t('support.4')}
-                        rows="2"
-                        onChange={this.handleInputChange}
-                        value={this.state.message}
-                        required
-                      />
-
-                      <button type="submit" className="btn btn-themed btn-md" disabled={this.state.loading ? 'disabled' : null}>
-                        {t('support.8')}
-                        {this.state.loading ? <i className="fab fa-spinner fa-spin" style={{ marginLeft: '10px' }} /> : null}
-                      </button>
-
-                      <button
-                        type="button"
-                        className="btn btn-danger btn-simple"
-                        data-dismiss="modal"
-                        onClick={this.close}
-                        style={{ float: 'right', padding: '15px 0 0 0' }}
-                      >
-                        {t('support.9')}
-                      </button>
-                    </div>
-                  ) : (
-                    <button
-                      type="button"
-                      className="btn btn-danger btn-simple"
-                      data-dismiss="modal"
-                      onClick={this.close}
-                      style={{ padding: '0' }}
-                    >
-                      {t('support.9')}
-                    </button>
-                  )}
-                </form>
+  
               </div>
             </div>
           </Modal>

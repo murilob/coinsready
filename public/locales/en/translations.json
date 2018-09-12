@@ -20,7 +20,8 @@
     "slack": "Join us on Slack",
     "telegram": "Join us on Telegram",
     "en": "English",
-    "de": "German"
+    "de": "German",
+    "br": "Português"
   },
   "hero": {
     "1": "Blockchain assets exchange",
@@ -54,16 +55,16 @@
   "about": {
     "title": "About Us",
     "teamtitle": "The People Who Make it Happen",
-    "1": "Nexchange is a fast, reliable and fully transparent cryptocurrency exchange built by crypto enthusiasts, for crypto enthusiasts.",
+    "1": "Coinsready is a fast, reliable and fully transparent cryptocurrency exchange built by crypto enthusiasts, for crypto enthusiasts.",
     "2": "We are a group of multi-national, multi-disciplinary cryptocurrency professionals.",
     "3":
-      "Our team came together to make this platform after seeing firsthand the need for a fast and reliable exchange on the crypto market.",
+      "<0>We've gathered with <1>N.exchange</1> to make this platform after seeing firsthand the need for a secure, anonymous, fast and reliable exchange on the crypto market.</0>",
     "4": "We pride ourselves on total transparency",
-    "5": "Everything is viewable through our API, starting from order lists and ending with our coin reserves.",
+    "5": "Here you don't have to go through boring forms to trade your cryptos, you can do that anonymously and securely",
     "6":
-      "N.exchange is built on several core values that guide our team in our day to day operations. Among them are complete transparency, a strive to help make cryptocurrency as accessible as possible, and a passion for open source.",
+      "Coinsready believes that the users coins must remain in users wallets, that is, we do not hold custody of your cryptocurrencies. Traditional exchanges keep your coins and are vulnerable to several attacks, putting at risk all your funds",
     "7":
-      "<0>To support our mission of making crypto accessible to everyone, we’ve made our <2><0>front end client completely open source <1></1></0></2>.</0>",
+      "Have a look at our FAQ session on top of the website and see how it works.",
     "oleg":
       "Multidisciplinary coder. Aspiring innovator with a deep passion for open source and making the world better, step by step, every single day.",
     "sarunas": "Backend developer and physicist. Animation fan, cryptocurrencies enthusiast and plays the saxophone.",
@@ -107,12 +108,12 @@
     "4":
       "Almost finished... We need to confirm your email address. To complete the subscription process, please click the link in the email we just sent you.",
     "5": "Something went wrong. Please try again later.",
-    "6": "Don't hesitate and get in touch with us"
+    "6": "<0>Don't hesitate and get in touch with us. Send a message to <1>support@coinsready.io</1></0>"
   },
   "footer": {
     "1": "TERMS AND CONDITIONS",
     "2": "PRIVACY POLICY",
-    "3": "<0>All rights reserved, YOA LTD 2016-2017,<1></1> England & Wales <4>registered company No. 10009845</4></0>"
+    "3": "<0>All rights reserved, Coinsready.io 2017-2018,<1></1> Powered by <4>N.exchange</4></0>"
   },
   "ico": {
     "action": "JOIN OUR ICO",
@@ -332,7 +333,8 @@
     "alt": "Get notified",
     "kycupdate": "KYC status updated for order",
     "email": "Enter your e-mail address",
-    "explanation": "Add your email to join our referral program & get notified about the status of your transactions"
+    
+    "explanation": "Share it on social!"
   },
   "referral": {
     "1": "Share this unique referral link with your friends to earn some coins!",

@@ -63,7 +63,7 @@ class FAQ extends Component {
                         </p>
                         <p>We will be adding more currencies very soon, stay tuned!</p>
                         <p>
-                          Missing your favorite coin? Let us know here: <a href="mailto:support@n.exchange">support@n.exchange</a>.
+                          Missing your favorite coin? Let us know here: <a href="mailto:support@coinsready.io">support@coinsready.io</a>.
                         </p>
                       </Trans>
                     </div>

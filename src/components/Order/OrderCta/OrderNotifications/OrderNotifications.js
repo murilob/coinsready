@@ -40,8 +40,38 @@ class OrderNotifications extends Component {
                 </div>
 
                 <div className={`col-xs-12 col-sm-7 ${styles.text}`}>
-                  <h2 className={styles.title}>{t('notify.explanation')}</h2>
-                  {this.renderForm(t)}
+                  <h2 className={styles.title}>{t('notify.explanation')}
+                  <div className={styles.links}>
+                    <a
+                      className={styles.link}
+                      href={`https://facebook.com/sharer.php?u=https://www.facebook.com/coinsready.io`}
+                      target="_blank"
+                      onClick={() => {
+                        window.ga('send', 'event', {
+                          eventCategory: 'Referrals',
+                          eventAction: 'Social click',
+                          eventValue: 'facebook',
+                      });
+                    }}
+                  >
+                    <i className="fab fa-facebook-f" aria-hidden="true" />
+                    </a>
+                    <a
+                      className={styles.link}
+                      href={`https://twitter.com/intent/tweet?text=Great%20cryptocurrency%20exchange!%20Follow @coinsreadyIO&url=https://twitter.com/coinsreadyIO`}
+                      target="_blank"
+                      onClick={() => {
+                        window.ga('send', 'event', {
+                          eventCategory: 'Referrals',
+                          eventAction: 'Social click',
+                          eventValue: 'twitter',
+                        });
+                      }}
+                    >
+                      <i className="fab fa-twitter" aria-hidden="true" />
+                    </a>
+                  </div>
+                  </h2>
                 </div>
 
                 <div className="col-ms-2 col-sm-5 hidden-xs text-center">

@@ -13,7 +13,7 @@ const Footer = () => (
               <Trans i18nKey="footer.3">
                 <p className={styles.address}>
                   All rights reserved, YOA LTD 2016-2017,<br />England & Wales{' '}
-                  <a href="https://beta.companieshouse.gov.uk/company/10009845" rel="noopener noreferrer" target="_blank">
+                  <a href="https://n.exchange/?ref=RVRZW47XVEU" rel="noopener noreferrer" target="_blank">
                     registered company No. 10009845
                   </a>
                 </p>
